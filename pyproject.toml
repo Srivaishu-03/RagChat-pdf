@@ -1,0 +1,22 @@
+[project]
+name = "rag chat with pdf-application"
+version = "0.1.0"
+description = 
+"It is small application built to undersatnd the working process of the RAG(Retrival Agumented Generation) and uploaded
+a pdf , asked questions on that it search and give the answer from the particular pdf. 
+So, this application is a small rag chat with pdf application."
+authors = [
+    {name = "Vaishnavi"}
+]
+requires-python = ">=3.10"
+dependencies = [
+faiss_cpu,
+numpy,
+pdfplumber,
+sentence_transformers,
+streamlit,
+transformers
+]
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

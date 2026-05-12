@@ -1,0 +1,6 @@
+faiss_cpu==1.8.0
+numpy==2.4.4
+pdfplumber==0.11.9
+sentence_transformers==2.7.0
+streamlit==1.57.0
+transformers==4.41.0
