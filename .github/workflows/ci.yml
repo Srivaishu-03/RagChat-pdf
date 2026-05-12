@@ -31,7 +31,7 @@ jobs:
     - name: Verify Python Files
       run: |
         python -m py_compile app.py
-        python -m py_compile raga.py
+        python -m py_compile rag2.py
 
     - name: CI Passed
       run: echo "RAG Application CI Successful"
