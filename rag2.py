@@ -6,7 +6,7 @@ from transformers import pipeline
 
 
 embed_model = SentenceTransformer("all-MiniLM-L6-v2")
-llm = pipeline("text2text-generation", model="google/flan-t5-base")
+llm = pipeline("text2text-generation", model="google/flan-t5-small")
 
 
 # ── 1. Load PDF 
